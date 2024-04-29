@@ -1,0 +1,25 @@
+@media screen and (width <= 1440px) {
+    .footer-column{
+        width: 15%;
+    }
+}
+
+@media screen and (width<=1024px) {
+    .topbar__buttons{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+    }
+}
+
+@media screen and (width <= 780px) {
+    .category-list__items{
+        display: flex;
+        flex-direction: column;
+    }
+    .category-list-item{
+        width: 100%;
+    }
+
+}
